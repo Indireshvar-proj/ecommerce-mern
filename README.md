@@ -4,6 +4,7 @@ Full Stack E-Commerce MERN APP:
 In the week 2 
 
 I have added the middlewares and route methodology to manage the user roles and admin roles with permissions only the admin can able to add or edit products to the home page.
+![mongodb examples](https://github.com/user-attachments/assets/8d140251-c1da-4c5e-b225-28baa62f098b)
 # Backend Development
 I have used various models schema i.e card products,productmodel,usermodel with Mongodb integration
 
