@@ -7,7 +7,7 @@ I have added the middlewares and route methodology to manage the user roles and 
 ![mongodb examples](https://github.com/user-attachments/assets/8d140251-c1da-4c5e-b225-28baa62f098b)
 # Backend Development
 I have used various models schema i.e card products,productmodel,usermodel with Mongodb integration
-
+![mongodb products](https://github.com/user-attachments/assets/12302083-a3a7-4443-b03f-3e3b6865ae3e)
 Moreover,I used the permission.js to authorize to edit or add the products for admin only
 
 Added the middleware authtoken to get the tokens stored in the cookies session to restore the user credentials once the user access the database the model.
