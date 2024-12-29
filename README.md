@@ -16,6 +16,10 @@ Apart from this additionally I have added several featureds like filtering the p
 # Features included
 Added the toast accesibility feature to display the login and logout notification and adding the products to the cart with reactjs toast notification
 
+Used the search section in the header component to search and display the products on the name searched for.
+
+Created a zoom in featue on product images in the product details page for accessing the information and quality of the product in detail
+
 
 
 
