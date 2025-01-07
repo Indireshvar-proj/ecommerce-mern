@@ -60,6 +60,7 @@ The backend of this e-commerce website is built using **Node.js** and **Express.
 I have used various models schema i.e card products,productmodel,usermodel with Mongodb integration
 ![mongodb products](https://github.com/user-attachments/assets/12302083-a3a7-4443-b03f-3e3b6865ae3e)
 
+## Week 3 and 4 
 2. **Express.js for API Development**: 🚀
    `Express.js` is used to create a RESTful API to handle `HTTP requests` and responses, ensuring efficient communication between the frontend and the backend. The API endpoints are designed to perform CRUD operations on user, product, and order data.
    
@@ -223,10 +224,6 @@ MERN-project/
 
 - [ ] `Order.js`, `Product.js`, `User.js`: These files define the data models using Mongoose, which allow you to interact with MongoDB collections.
 
-### firebase.js -
-
-- [ ] **`firebase.js`:** This file sets up Firebase for authentication and database management in the application. It ensures that the Firebase app is properly configured and ready to use authentication and Firestore services.
-
 ### utils.js -
 
 - [ ] **`utils.js`:** This file provides essential utility functions and middleware for user authentication and authorization in the application. It ensures that only authenticated users with the appropriate permissions can access certain routes or perform specific actions.
@@ -237,9 +234,9 @@ MERN-project/
 
 ### Components
 
-- [ ] **`AdminRoute.js`, `CheckoutSteps.js`, `LoadingBox.js`, `MessageBox.js`, `Product.js`, `ProtectedRoute.js`, `Rating.js`, `SearchBox.js`**.
+- [ ] **`AdminEditproduct.js`, `AdminProductcart.js`, `BannerProduct.js`, `categoryList.js`, `Categorywiseproduct.js`, `Categorywiseproduct.js`**.
 
-### Screens -
+### Pages -
 
 - [ ] **`CartScreen.js`, `DashboardScreen.js`, `HomeScreen.js`, `HowToScreen.js`, `OrderHistoryScreen.js`, `OrderListScreen.js`, `OrderScreen.js`, `PaymentMethodScreen.js`, `PlaceOrderScreen.js`, `ProductEditScreen.js`, `ProductListScreen.js`, `ProductScreen.js`, `ProfileScreen.js`, `SearchScreen.js`, `ShippingAddressScreen.js`, `SigninScreen.js`, `SignupScreen.js`, `AboutUsScreen.js`**.
 
@@ -253,46 +250,20 @@ MERN-project/
 
 ### index.js
 
-- [ ] **`index.js`:** This file serves as the entry point for the React application. It wraps the `<App />` component with providers such as `StoreProvider`, `HelmetProvider`, and `PayPalScriptProvider`.
+- [ ] **`index.js`:** This file serves as the entry point for the React application. It wraps the `<App />` component with providers such as `StoreProvider`, `HelmetProvider`, `.
 
-Here's an example of how HelmetProvider and react-helmet might be use in the app:
 ```
-// Import necessary dependencies
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-// Wrap your entire application with HelmetProvider in index.js
-ReactDOM.render(
-  <HelmetProvider>
-    <App />
-  </HelmetProvider>,
-  document.getElementById('root')
-);
-
-// In any component where you want to dynamically change document head elements, use Helmet component
-const MyComponent = () => {
-  return (
-    <div>
-      {/* Use Helmet component to set document title */}
-      <Helmet>
-        <title>My Page Title</title>
-        {/* Add other head elements like meta tags */}
-        <meta name="description" content="This is my page description" />
-      </Helmet>
-      {/* Your component JSX */}
-      <h1>Hello, World!</h1>
-    </div>
-  );
-};
 ```
 
  
-## Components vs Screens 🥇 -
+## Components vs Pages 🥇 -
 
 ### 🗂 Components -
 
 Components are reusable building blocks that encapsulate a piece of UI functionality. They promote code reusability and maintainability by allowing you to create modular pieces of code that can be used across different parts of your application.
 
-### 📁 Screens -
+### 📁Pages -
 
 Screens are typically higher-level components that represent entire pages or views within your application. They often contain multiple components and handle more complex logic related to rendering and managing UI state.
 
