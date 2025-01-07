@@ -349,11 +349,14 @@ THe architecture focuses on structured state management, components, and effecti
 ![login](https://github.com/user-attachments/assets/04b5ca8d-6351-4463-a345-5246ebad809c)
 ![login1](https://github.com/user-attachments/assets/a7492058-79a9-4894-8a10-14b743eada52)
 
+###### Products
+![products](https://github.com/user-attachments/assets/625a2cca-dbab-44f8-b9bd-e8222083538c)
+
 ###### Detailed Product View
 ![productinfo](https://github.com/user-attachments/assets/320e9c44-427a-4239-9f75-1e4a3cc84f7e)
 
 ###### Shopping Cart 
-![cart](https://user-images.githubusercontent.com/72359805/230922510-57753e47-0df0-4e5e-8fe4-a7bbb61e810b.PNG)
+![cart](https://github.com/user-attachments/assets/0f92a490-708f-480b-a084-eba76e73115b)
 
 ###### Filtersection  
 ![filter](https://github.com/user-attachments/assets/2a74c2dc-329f-4f80-abb4-1efaf796a88b)
@@ -364,7 +367,7 @@ THe architecture focuses on structured state management, components, and effecti
 ### Place an order via easyinvoice API:  
 
 ###### Place order  
-![place order paypal](https://github.com/shanibider/Anastacia-Ecommerce-React-Website/assets/72359805/37f789f4-a0e5-4870-b250-89228553b3dc)
+
 
 <br>
 
