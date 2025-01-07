@@ -88,17 +88,17 @@ Created a zoom in featue on product images in the product details page for acces
   - [ ] **useReducer:** React hook for managing complex state logic with reducer functions, offering a more organized approach to state management. 🔴
 - [x] **Node.js:** Lightweight and efficient JavaScript runtime environment, enabling scalable and high-performance server-side execution.
 
-### **Firebase:**
-- [x] **Authentication:** Firebase authentication services for secure user authentication and authorization management.
-- [x] **Real-time Database:** Firebase real-time database for seamless and synchronized data updates across clients in real-time.
+### **Mongodb atlas:**
+- [x] **Authentication:** Mongodb authentication services for secure user authentication and authorization management.
+- [x] **Real-time Database:** Mongodb atlas real-time database for seamless and synchronized data updates across clients in real-time.
 
 ### **HTTP/S Protocols:**
 - [x] **Axios:** Promise-based HTTP client for making asynchronous requests to the server, enhancing data fetching and manipulation.
 - [x] **AJAX:** Asynchronous JavaScript and XML for making seamless requests to the server without refreshing the entire page.
 - [x] **Fetch API:** Modern browser API for fetching resources asynchronously across the network, improving data retrieval efficiency.
 
-### **Payment Processing:**
-- [x] **PayPal API:** Integration of PayPal API for secure and reliable payment processing, ensuring seamless transactions for users.
+### **payment invoice generayion:**
+- [x] **EasyInvoice api:** Integration of Easyinvoice API for secure and reliable payment processing, ensuring seamless transactions for users.
 
 ### **Frontend Development:**
 - [x] **HTML, CSS, JavaScript:** Foundational technologies for building the frontend interface, providing structure, style, and interactivity to web applications.
