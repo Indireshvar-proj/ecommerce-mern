@@ -26,7 +26,7 @@ I have added the middlewares and route methodology to manage the user roles and 
 - 🛠️ **User functionalities**, such as order history, and **admin functionalities** such as real-time metrics (registered users, order count, total money orders), creation, editing, and deletion of products.
 <br>
 
-For week 1:
+## For week 1:
 
 ## 🌟 Frontend Implementation 
 
@@ -40,7 +40,9 @@ The frontend is built using **React.js**, using React features such as hooks (`u
 4. **State Management with useState and useEffect**: Manages local component state and side effects, ensuring components respond to changes in application state efficiently.
 5. **Asynchronous Operations with Redux Thunk**: Handles asynchronous logic such as fetching data from the backend.
 
-## Backend Implementation 🧱
+##  WEEK 2 
+
+## Admin panel and Backend Implementation 🧱
 The backend of this e-commerce website is built using **Node.js** and **Express.js**, connecting to **MongoDB Atlas** for database management. It includes secure user authentication with **Firebase** and implements API endpoints to handle various functionalities such as product management, user management, and order processing.
 
 ### Key Components of the Backend:
@@ -73,6 +75,7 @@ Used the search section in the header component to search and display the produc
 
 Created a zoom in featue on product images in the product details page for accessing the information and quality of the product in detail
 
+## The week 2 
 # Technologies Used 🏆
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,bootstrap,mongodb,nodejs)](https://skillicons.dev)
 
@@ -150,52 +153,47 @@ These components work together to provide a seamless shopping experience for use
 MERN-project/
 ├── frontend/
 │   ├── components/
-│   │   ├── AdminRoute.js
-│   │   ├── CheckoutSteps.js
-│   │   ├── LoadingBox.js
-│   │   ├── MessageBox.js
-│   │   ├── Product.js
-│   │   ├── ProtectedRoute.js
-│   │   ├── Rating.js
-│   │   └── SearchBox.js
-│   ├── screens/
-│   │   ├── AboutUsScreen.js
-│   │   ├── CartScreen.js
-│   │   ├── DashboardScreen.js
-│   │   ├── HomeScreen.js
-│   │   ├── HowToScreen.js
-│   │   ├── OrderHistoryScreen.js
-│   │   ├── OrderListScreen.js
-│   │   ├── OrderScreen.js
-│   │   ├── PaymentMethodScreen.js
-│   │   ├── PlaceOrderScreen.js
-│   │   ├── ProductEditScreen.js
-│   │   ├── ProductListScreen.js
-│   │   ├── ProductScreen.js
-│   │   ├── ProfileScreen.js
-│   │   ├── SearchScreen.js
-│   │   ├── ShippingAddressScreen.js
-│   │   ├── SigninScreen.js
-│   │   └── SignupScreen.js
+│   │   ├── AdminEditproduct.js
+│   │   ├── AdminProductcart.js
+│   │   ├── BannerProduct.js
+│   │   ├── categoryList.js
+│   │   ├── Categorywiseproduct.js
+│   │   ├── changeUserRole.js
+│   │   ├── DsiplayImage.js
+│   │   ├── UploadProduct.js
+│   │   ├── Footer.js
+│   │   └── Header.js
+│   ├── pages/
+│   │   ├── About.js
+│   │   ├── Cart.js
+│   │   ├── AdminPanel.js
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── AllProducts.js
+│   │   ├── CategoryProduct.js
+│   │   ├── searchProduct.js
+│   │   └── Signup.js
 │   ├── App.js
 │   ├── Store.js
 │   ├── index.js
 │   └── utils.js
 ├── Backend/
-│   ├── routes/
-│   │   ├── orderRoutes.js
-│   │   ├── productRoutes.js
-│   │   ├── seedRoutes.js
-│   │   └── userRoutes.js
 │   ├── models/
-│   │   ├── orderModel.js
-│   │   ├── productModel.js
-│   │   └── userModel.js
-│   ├── server.js
-│   ├── firebase.js
+│   │   ├── cartProduct.js
+│   │   ├── ProductModel.js
+│   │   ├── userModel.js
+│   ├── config/
+│   │   ├── db.js
+│   ├── middleware/
+│   │   ├── authToken.js
+│   ├── helpers/
+│   │   ├── permission.js
+│   ├── controller/
+│   │   ├──product
+│   │   ├──user
+│   ├── index.js
 │   ├── utils.js
 │   ├── data.js
-│   └── cloths.json
 └── ...
 ```
 
