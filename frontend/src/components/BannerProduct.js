@@ -4,11 +4,11 @@
 
 import React, { useEffect, useState } from 'react'
 import { GrSearch } from "react-icons/gr";
-import image1 from '../assest/banner/img1.webp'
-import image2 from '../assest/banner/img2.webp'
-import image3 from '../assest/banner/img3.jpg'
-import image4 from '../assest/banner/img4.jpg'
-import image5 from '../assest/banner/img5.webp'
+import image1 from '../assest/banner/954_generated.jpg'
+import image2 from '../assest/banner/vecteezy_online-shopping-on-phone-buy-sell-business-digital-web_4299835.jpg'
+import image3 from '../assest/banner/vecteezy_shopping-online-on-smartphone-and-new-buy-sale-promotion_7153463.jpg'
+import image4 from '../assest/banner/img3.jpg'
+import image5 from '../assest/banner/img2.webp'
 
 
 import image1Mobile from '../assest/banner/img1_mobile.jpg'

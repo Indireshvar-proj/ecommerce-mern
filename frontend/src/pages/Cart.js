@@ -3,6 +3,8 @@ import SummaryApi from '../common'
 import Context from '../context'
 import displayINRCurrency from '../helpers/displayCurrency'
 import { MdDelete } from "react-icons/md";
+import easyinvoice from 'easyinvoice';
+
 
 const Cart = () => {
     const [data,setData] = useState([])
@@ -10,6 +12,70 @@ const Cart = () => {
     const context = useContext(Context)
     const loadingCart = new Array(4).fill(null)
 
+    
+const downloadInvoice = async() =>{
+    
+    data.map((product,index)=>{
+
+var datafile = {
+    apiKey: "free", 
+    mode: "development",
+    images: {
+        // The logo on top of your invoice
+        logo: "https://public.budgetinvoice.com/img/logo_en_original.png",
+        // The invoice background
+        background: "https://public.budgetinvoice.com/img/watermark-draft.jpg"
+    },
+    // Your own data
+    sender: {
+        company: "Sample Corp",
+        address: "Sample Street 123",
+        zip: "1234 AB",
+        city: "Sampletown",
+        country: "Samplecountry"
+        // custom1: "custom value 1",
+        // custom2: "custom value 2",
+        // custom3: "custom value 3"
+    },
+    // Your recipient
+    client: {
+        company: "Client Corp",
+        address: "Clientstreet 456",
+        zip: "4567 CD",
+        city: "Clientcity",
+        country: "Clientcountry"
+        // custom1: "custom value 1",
+        // custom2: "custom value 2",
+        // custom3: "custom value 3"
+    },
+    information: {
+        // Invoice number
+        number: "2021.0001",
+        // Invoice data
+        date: "12-12-2021",
+        // Invoice due date
+        dueDate: "31-12-2021"
+    },
+    products: [
+        {
+            quantity: product.quantity,
+            description: product?.productId?.productName,
+            taxRate: 6,
+            price:product?.productId?.sellingPrice
+            
+        },
+      
+       
+    ]
+
+};
+if(!datafile)
+    return
+const result = easyinvoice.createInvoice(datafile);
+easyinvoice.download("invoice",result.pdf);
+    
+    })
+}
 
     const fetchData = async() =>{
         
@@ -141,6 +207,7 @@ const Cart = () => {
                         ) : (
                           data.map((product,index)=>{
                            return(
+                            
                             <div key={product?._id+"Add To Cart Loading"} className='w-full bg-white h-32 my-2 border border-slate-300  rounded grid grid-cols-[128px,1fr]'>
                                 <div className='w-32 h-32 bg-slate-200'>
                                     <img src={product?.productId?.productImage[0]} className='w-full h-full object-scale-down mix-blend-multiply' />
@@ -169,8 +236,9 @@ const Cart = () => {
                         )
                     }
                 </div>
-
-
+                
+                <button onClick={downloadInvoice}>Download Invoice</button>
+                
                 {/***summary  */}
                 <div className='mt-5 lg:mt-0 w-full max-w-sm'>
                         {
@@ -191,7 +259,7 @@ const Cart = () => {
                                         <p>{displayINRCurrency(totalPrice)}</p>    
                                     </div>
 
-                                    <button className='bg-blue-600 p-2 text-white w-full mt-2'>Payment</button>
+                                    <button className='bg-blue-600 p-2 text-white w-full mt-2' onClick={downloadInvoice}>Payment/Download Invoice</button>
 
                                 </div>
                             )
