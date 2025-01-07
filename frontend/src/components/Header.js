@@ -64,7 +64,7 @@ const Header = () => {
             <div>
               <ul className='flex gap-4 md:gap-6'>
                 <Link to={"/"}>
-                    <li><h2 className='flex gap-2  text-bold items-center border rounded-lg p-2 px-4  hover:scale-105 hover:bg-blue-100'>Home</h2></li>
+                    <li><h2 className='flex gap-2  text-bold items-center border rounded-lg p-2 px-4  hover:scale-105 hover:bg-blue-100'>Homepage</h2></li>
                     </Link>
                     <Link to={"/about"}>
                     <li><h2 className='flex gap-2  items-center border rounded-lg p-2 px-4  hover:scale-105 hover:bg-blue-100'>About</h2></li>
