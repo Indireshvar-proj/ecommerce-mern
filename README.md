@@ -109,7 +109,62 @@ Successfully deployed the mern ecommerce app in vercel production deployment wit
 - [x] **Bootstrap:** Frontend framework for developing responsive and mobile-first web projects, streamlining the design and layout process and ensuring compatibility across various devices. 🌐
 <br>
 
+## Ecommerce Website Preview :
+### Demo Website
 
+👉 Demo : 
+
+<img src="https://github.com/user-attachments/assets/59254d33-4cd0-49ae-b8cb-b21211499025.mp4" alt=" Click here for Demo" width="300">
+
+
+
+###### Home Page
+![homepage](https://github.com/user-attachments/assets/e0e506f1-1328-466f-a001-d1f958998d3e)
+
+###### Login Page
+![login](https://github.com/user-attachments/assets/04b5ca8d-6351-4463-a345-5246ebad809c)
+![login1](https://github.com/user-attachments/assets/a7492058-79a9-4894-8a10-14b743eada52)
+
+###### Products
+![products](https://github.com/user-attachments/assets/625a2cca-dbab-44f8-b9bd-e8222083538c)
+
+###### Detailed Product View
+![productinfo](https://github.com/user-attachments/assets/320e9c44-427a-4239-9f75-1e4a3cc84f7e)
+
+###### Shopping Cart 
+![cart](https://github.com/user-attachments/assets/0f92a490-708f-480b-a084-eba76e73115b)
+
+###### Filtersection  
+![filter](https://github.com/user-attachments/assets/2a74c2dc-329f-4f80-abb4-1efaf796a88b)
+
+
+<br>
+
+### Place an order via easyinvoice API:  
+
+###### Place order  
+
+
+<br>
+
+## Admin Panel functionality:
+
+###### Admin dashboard displaying real-time metrics: registered users, order count, and financial performance through total money orders
+![adminpanel](https://github.com/user-attachments/assets/88fc4085-9029-4c15-a78e-047b47a17674)
+
+###### Users
+![adminrole](https://github.com/user-attachments/assets/bcf10b2f-22c0-4b30-9429-2398f93c0045)
+
+######  Upload and editing product
+![uploadproduct](https://github.com/user-attachments/assets/a8336ca2-3e08-4b29-9fcd-020852ce3f78)
+
+######  Invoice generation
+![invoice](https://github.com/user-attachments/assets/8e5e6632-7c65-444d-9a96-ddce8bc3c899)
+<br> 
+
+
+
+###### about us page
 
 # Key Features 🎯
 - [x] 🏠 **Home Page:** 
@@ -307,62 +362,6 @@ THe architecture focuses on structured state management, components, and effecti
 
 <br>
 
-## Ecommerce Website Preview :
-### Demo Website
-
-👉 Demo : 
-
-<img src="https://github.com/user-attachments/assets/59254d33-4cd0-49ae-b8cb-b21211499025" alt=" Click here for Demo" width="300">
-
-
-
-###### Home Page
-![homepage](https://github.com/user-attachments/assets/e0e506f1-1328-466f-a001-d1f958998d3e)
-
-###### Login Page
-![login](https://github.com/user-attachments/assets/04b5ca8d-6351-4463-a345-5246ebad809c)
-![login1](https://github.com/user-attachments/assets/a7492058-79a9-4894-8a10-14b743eada52)
-
-###### Products
-![products](https://github.com/user-attachments/assets/625a2cca-dbab-44f8-b9bd-e8222083538c)
-
-###### Detailed Product View
-![productinfo](https://github.com/user-attachments/assets/320e9c44-427a-4239-9f75-1e4a3cc84f7e)
-
-###### Shopping Cart 
-![cart](https://github.com/user-attachments/assets/0f92a490-708f-480b-a084-eba76e73115b)
-
-###### Filtersection  
-![filter](https://github.com/user-attachments/assets/2a74c2dc-329f-4f80-abb4-1efaf796a88b)
-
-
-<br>
-
-### Place an order via easyinvoice API:  
-
-###### Place order  
-
-
-<br>
-
-## Admin Panel functionality:
-
-###### Admin dashboard displaying real-time metrics: registered users, order count, and financial performance through total money orders
-![adminpanel](https://github.com/user-attachments/assets/88fc4085-9029-4c15-a78e-047b47a17674)
-
-###### Users
-![adminrole](https://github.com/user-attachments/assets/bcf10b2f-22c0-4b30-9429-2398f93c0045)
-
-######  Upload and editing product
-![uploadproduct](https://github.com/user-attachments/assets/a8336ca2-3e08-4b29-9fcd-020852ce3f78)
-
-######  Invoice generation
-![invoice](https://github.com/user-attachments/assets/8e5e6632-7c65-444d-9a96-ddce8bc3c899)
-<br> 
-
-
-
-###### about us page
 
 
 
