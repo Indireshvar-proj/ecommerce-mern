@@ -353,9 +353,10 @@ THe architecture focuses on structured state management, components, and effecti
 ######  Upload and editing product
 ![uploadproduct](https://github.com/user-attachments/assets/a8336ca2-3e08-4b29-9fcd-020852ce3f78)
 
-<br> 
-######  Invoice genersation
+######  Invoice generation
 ![invoice](https://github.com/user-attachments/assets/8e5e6632-7c65-444d-9a96-ddce8bc3c899)
+<br> 
+
 
 
 ###### about us page
