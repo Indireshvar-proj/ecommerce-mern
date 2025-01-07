@@ -78,7 +78,8 @@ Created a zoom in featue on product images in the product details page for acces
 
 # Vercel deployment
 Successfully deployed the mern ecommerce app in vercel production deployment with live project backend and frontend are linkedin with each other
-
+Frontend deployment:https://ecommerce-mern-djw6.vercel.app/
+Backend deployment:https://ecommerce-mern-one-beta.vercel.app/
 
 # Technologies Used 🏆
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,bootstrap,mongodb,nodejs)](https://skillicons.dev)
