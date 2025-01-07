@@ -1,5 +1,5 @@
 # Full-Stack-E-Commerce-MERN-APP -Edunet foundation 
-Full Stack E-Commerce MERN APP: 
+Full Stack E-Commerce MERN APP: Frontend deployment:https://ecommerce-mern-djw6.vercel.app/
  
 In the week 1
 
