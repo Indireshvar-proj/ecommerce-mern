@@ -212,9 +212,9 @@ MERN-project/
 
 ## Backend Structure 🧱🔨-
 
-### Server -
+### Index -
 
-- [ ] **`server.js`:** This is the main entry point for the Node.js backend. It initializes Express, connects to MongoDB using Mongoose, defines API routes, and serves the React frontend. It also includes logic for seeding initial data and serving static files.
+- [ ] **`Index.js`:** This is the main entry point for the Node.js backend. It initializes Express, connects to MongoDB using Mongoose, defines API routes, and serves the React frontend. It also includes logic for seeding initial data and serving static files.
 
 ### Routes -
 
@@ -354,6 +354,8 @@ THe architecture focuses on structured state management, components, and effecti
 ![uploadproduct](https://github.com/user-attachments/assets/a8336ca2-3e08-4b29-9fcd-020852ce3f78)
 
 <br> 
+######  Invoice genersation
+![invoice](https://github.com/user-attachments/assets/8e5e6632-7c65-444d-9a96-ddce8bc3c899)
 
 
 ###### about us page
