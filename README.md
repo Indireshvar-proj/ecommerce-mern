@@ -21,7 +21,7 @@ I have added the middlewares and route methodology to manage the user roles and 
 - **dynamic shopping cart**
 - 🖊 **Interactive review system**
 - 🗂️ **Organized product listings**
-- 💳**Paypal payment process**
+- 💳**Invoice generation**
 - 🔒 **User authentication and authorization**
 - 🛠️ **User functionalities**, such as order history, and **admin functionalities** such as real-time metrics (registered users, order count, total money orders), creation, editing, and deletion of products.
 <br>
@@ -43,7 +43,7 @@ The frontend is built using **React.js**, using React features such as hooks (`u
 ##  WEEK 2 
 
 ## Admin panel and Backend Implementation 🧱
-The backend of this e-commerce website is built using **Node.js** and **Express.js**, connecting to **MongoDB Atlas** for database management. It includes secure user authentication with **Firebase** and implements API endpoints to handle various functionalities such as product management, user management, and order processing.
+The backend of this e-commerce website is built using **Node.js** and **Express.js**, connecting to **MongoDB Atlas** for database management. It includes secure user authentication with and implements API endpoints to handle various functionalities such as product management, user management, and order processing.
 
 ### Key Components of the Backend:
 1. **Database Management with MongoDB Atlas**: 🌐
