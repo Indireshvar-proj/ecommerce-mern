@@ -234,11 +234,11 @@ MERN-project/
 
 ### Components
 
-- [ ] **`AdminEditproduct.js`, `AdminProductcart.js`, `BannerProduct.js`, `categoryList.js`, `Categorywiseproduct.js`, `Categorywiseproduct.js`**.
+- [ ] **` AdminEditproduct.js`, `AdminProductcart.js`, `BannerProduct.js`, `categoryList.js`, `Categorywiseproduct.js`, `Categorywiseproduct.js`**.
 
 ### Pages -
 
-- [ ] **`CartScreen.js`, `DashboardScreen.js`, `HomeScreen.js`, `HowToScreen.js`, `OrderHistoryScreen.js`, `OrderListScreen.js`, `OrderScreen.js`, `PaymentMethodScreen.js`, `PlaceOrderScreen.js`, `ProductEditScreen.js`, `ProductListScreen.js`, `ProductScreen.js`, `ProfileScreen.js`, `SearchScreen.js`, `ShippingAddressScreen.js`, `SigninScreen.js`, `SignupScreen.js`, `AboutUsScreen.js`**.
+- [ ] **`About.js`, `Cart.js`, `AdminPanel.js`, `Home.js`, `Login.js`, `AllProducts.js`, `CategoryProduct.js`, `searchProduct.js`, `Signup.js`, **.
 
 ### app.js -
 
