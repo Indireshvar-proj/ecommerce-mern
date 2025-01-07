@@ -76,7 +76,10 @@ Used the search section in the header component to search and display the produc
 
 Created a zoom in featue on product images in the product details page for accessing the information and quality of the product in detail
 
-## The week 2 
+# Vercel deployment
+Successfully deployed the mern ecommerce app in vercel production deployment with live project backend and frontend are linkedin with each other
+
+
 # Technologies Used 🏆
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,bootstrap,mongodb,nodejs)](https://skillicons.dev)
 
