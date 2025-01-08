@@ -60,6 +60,15 @@ The backend of this e-commerce website is built using **Node.js** and **Express.
 I have used various models schema i.e card products,productmodel,usermodel with Mongodb integration
 ![mongodb products](https://github.com/user-attachments/assets/12302083-a3a7-4443-b03f-3e3b6865ae3e)
 
+# Login Page and registration
+To access our account, we need to log in using our email and password. At the server-side, the backend application searches for the user’s email in MongoDB. If the user exists, it compares the password submitted by the user with the password stored in the database. To ensure security, we will be using bcrypt for this process.
+
+After the user is verified, the backend app will do two things:
+
+send JWT to cookies
+Send user data (password excluded) to front end app
+The cookies can hold your ticket for a while, which is like the expiry date of your ticket. Besides, we have another place to hold some data on the web browser, which is the local storage. But the data held in local storage will no longer be there once you refresh the page, which is why we use cookies.
+
 ## Week 3 and 4 
 2. **Express.js for API Development**: 🚀
    `Express.js` is used to create a RESTful API to handle `HTTP requests` and responses, ensuring efficient communication between the frontend and the backend. The API endpoints are designed to perform CRUD operations on user, product, and order data.
