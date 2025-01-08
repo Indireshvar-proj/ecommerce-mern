@@ -78,6 +78,12 @@ Moreover,I used the permission.js to authorize to edit or add the products for a
 Added the middleware authtoken to get the tokens stored in the cookies session to restore the user credentials once the user access the database the model.
 
 Apart from this additionally I have added several featureds like filtering the products based on the low to high and high to low prices and also selecting only the desired product items.
+
+# Cloudinary API 
+
+The clouf=dinary api is used to store the images or media to cloudinary environment for seamless processing of the ecommerce product images uploaded by the admin to retreive using the cloundinary api to disaply to the user in scalable and for better perfromance
+#
+
 # Features included
 Added the toast accesibility feature to display the login and logout notification and adding the products to the cart with reactjs toast notification
 
